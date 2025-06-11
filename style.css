@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: rgb(24, 9, 67);
+  color: rgb(224, 222, 222);
+}
+
+
+#control-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  padding: 12px;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+#control-panel label, #control-panel input {
+  display: block;
+  margin: 5px 0;
+}
+
+
+body > div {
+  z-index: 10;
+}
