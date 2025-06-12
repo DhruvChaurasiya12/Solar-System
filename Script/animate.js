@@ -1,6 +1,6 @@
 // Animation Control
 let isPlaying = true;
-const toggleButton = document.getElementById("toggle-animation");
+const toggleButton = document.getElementById("toggle-button");
 if (toggleButton) {
   toggleButton.addEventListener("click", () => {
     isPlaying = !isPlaying;
