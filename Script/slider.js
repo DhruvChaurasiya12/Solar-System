@@ -1,5 +1,5 @@
 function createSlider(name) {
-  const panel = document.getElementById("control-panel");
+  const panel = document.getElementById("speed-control");
   const label = document.createElement("label");
   label.innerText = `${name} Speed: `;
   label.style.color = "white";
