@@ -31,7 +31,7 @@ planetData.forEach(data => {
   orbit.rotation.x = Math.PI / 2 - tiltAngle;
   solarSystem.add(orbit);
 
-  // Label -> names
+  // Label -> names of planets
   const div = document.createElement('div');
   div.style.position = 'absolute';
   div.style.color = 'white';
